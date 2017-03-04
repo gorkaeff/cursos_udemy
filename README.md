@@ -1,2 +1,2 @@
 # cursos_udemy
-Cursos Udemy
+Repositorio con ejemplos y proyectos de los Cursos de la web Udemy
