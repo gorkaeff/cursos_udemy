@@ -12,10 +12,11 @@ tsc app         //Compilar archivo app.ts y generar app.js
 tsc app -w      //Escuchar cambios en typescript
 tsc -init       //Crear proyecto typescript - crea fichero tsconfig.json
 ```
-Tras instalar ese fichero, solo tsc y compila todos los ficheros ts y genera los js
 
-Ejemplos con var y let. let mantiene el valor en el scope donde se encuentra
+* 3 - Aplicación 1: Hola Mundo
 
-const OPCIONES por ejemplo
+Componentes (header, menu lateral, footer, paginas y subpaginas)
 
-Template literal `Hola ${nombre} ${apellido}`, tambien multilinea y te convierte a javascript
+Directivas estructurales (ngIf, ngFor)
+
+[Angular2](https://angular.io)
