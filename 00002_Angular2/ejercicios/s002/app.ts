@@ -99,3 +99,39 @@ prom1.then(function (){
 }, function (){
     console.log("Ejecutar si todo sale mal");
 })
+
+//interfaces
+interface Xmen{
+    nombre:string,
+    poder:string
+}
+
+function enviarMision(xmen : Xmen){
+    console.log("Enviando a:" + xmen.nombre);
+}
+
+let demoXmen:Xmen = {
+    nombre: "XmenName",
+    poder: "Regeneracion"
+}
+
+enviarMision(demoXmen);
+
+//Introduccion a las clases POO
+
+class Player {
+    name:string = "Jugador";
+    team:string;
+    nick:string;
+    isInjured:boolean;
+    matches:number;
+
+    constructor(name:string, team:string, nick:string){
+        this.name = name;
+        this.team = team;
+        this.nick = nick;
+    }
+}
+
+let gorkaeff:Player = new Player("Gorkilla","FCB","gorkaeffNick");
+console.log(gorkaeff);

@@ -78,3 +78,23 @@ prom1.then(function () {
 }, function () {
     console.log("Ejecutar si todo sale mal");
 });
+function enviarMision(xmen) {
+    console.log("Enviando a:" + xmen.nombre);
+}
+var demoXmen = {
+    nombre: "XmenName",
+    poder: "Regeneracion"
+};
+enviarMision(demoXmen);
+//Introduccion a las clases POO
+var Player = (function () {
+    function Player(name, team, nick) {
+        this.name = "Jugador";
+        this.name = name;
+        this.team = team;
+        this.nick = nick;
+    }
+    return Player;
+}());
+var gorkaeff = new Player("Gorkilla", "FCB", "gorkaeffNick");
+console.log(gorkaeff);
