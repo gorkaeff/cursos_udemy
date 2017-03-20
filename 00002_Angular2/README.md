@@ -20,3 +20,7 @@ Componentes (header, menu lateral, footer, paginas y subpaginas)
 Directivas estructurales (ngIf, ngFor)
 
 [Angular2](https://angular.io)
+
+* 4 - Aplicación de usa sola página (SPA)
+
+Angular CLI - npm install -g @angular/cli
