@@ -24,3 +24,7 @@ Directivas estructurales (ngIf, ngFor)
 * 4 - Aplicación de usa sola página (SPA)
 
 Angular CLI - npm install -g @angular/cli
+```
+ng generate component components/shared/navbar
+ng generate component components/home
+```
