@@ -28,3 +28,16 @@ Angular CLI - npm install -g @angular/cli
 ng generate component components/shared/navbar
 ng generate component components/home
 ```
+
+npm install bootstrap@4.0.0-alpha.6 --save
+
+npm install jquery --save
+
+npm install tether --save
+
+Actualizar ficheros css y javascript en .angular-cli.json
+
+```
+ng g c components/about
+ng g c components/heroes -is   //inline style : sin estilos
+```
