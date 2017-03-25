@@ -41,3 +41,9 @@ Actualizar ficheros css y javascript en .angular-cli.json
 ng g c components/about
 ng g c components/heroes -is   //inline style : sin estilos
 ```
+
+* 5 - Pipes (Transformar los datos)
+
+uppercase y lowercase, Slice, Decimal, Percent, Currency, Json, Async, Date
+
+Pipes personalizados: Capitalizar palabras y nombres + Creación de un pipe, que permite cargar recursos externos de forma segura.
