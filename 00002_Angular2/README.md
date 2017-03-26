@@ -47,3 +47,5 @@ ng g c components/heroes -is   //inline style : sin estilos
 uppercase y lowercase, Slice, Decimal, Percent, Currency, Json, Async, Date
 
 Pipes personalizados: Capitalizar palabras y nombres + Creación de un pipe, que permite cargar recursos externos de forma segura.
+
+ng g pipe pipes/domseguro
