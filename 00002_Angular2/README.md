@@ -53,3 +53,6 @@ ng g pipe pipes/domseguro
 * 6 - SpotiApp
 
 Rutas y parametros. Bootstrap 4. Uso de HTTP y uso API Spotify para obtener info de artistas, album y audio. Trabajar datos asíncronos. ngModel para enlazar campos de texto a variables. Widgets spotify. HTML5 audio, Observables y Maps.
+
+[API Spotify](https://developer.spotify.com/web-api/console/)
+[API Spotify Search](https://developer.spotify.com/web-api/console/search/)
