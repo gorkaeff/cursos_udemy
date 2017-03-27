@@ -49,3 +49,7 @@ uppercase y lowercase, Slice, Decimal, Percent, Currency, Json, Async, Date
 Pipes personalizados: Capitalizar palabras y nombres + Creación de un pipe, que permite cargar recursos externos de forma segura.
 
 ng g pipe pipes/domseguro
+
+* 6 - SpotiApp
+
+Rutas y parametros. Bootstrap 4. Uso de HTTP y uso API Spotify para obtener info de artistas, album y audio. Trabajar datos asíncronos. ngModel para enlazar campos de texto a variables. Widgets spotify. HTML5 audio, Observables y Maps.
