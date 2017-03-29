@@ -30,8 +30,20 @@ export class SpotifyService {
     //Observable
     return this.http.get( url )
         .map( res => {
-            console.log(res.json());
+            //console.log(res.json());
             return res.json();
+        });
+  }
+
+  getTop( id:string ){
+    let query = `/${ id }/top-tracks?country=US`;
+    let url = this.urlArtista + query;
+
+    //Observable
+    return this.http.get( url )
+        .map( res => {
+            console.log(res.json().tracks);
+            return res.json().tracks;
         });
   }
 
