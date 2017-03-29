@@ -7,6 +7,7 @@ export class SpotifyService {
 
   artistas:any[] = [];
   urlBusqueda:string = "https://api.spotify.com/v1/search";
+  urlArtista:string = "https://api.spotify.com/v1/artists";
 
   constructor( private http:Http ) { 
 
@@ -18,11 +19,20 @@ export class SpotifyService {
 
     //Observable
     return this.http.get( url ).map(res => {
-      //console.log(res.json().artists.items);
       this.artistas = res.json().artists.items;
-      //console.log(this.artistas);
-      //return this.artistas;
     });
+  }
+
+  getArtista( id:string ){
+    let query = `/${ id }`;
+    let url = this.urlArtista + query;
+
+    //Observable
+    return this.http.get( url )
+        .map( res => {
+            console.log(res.json());
+            return res.json();
+        });
   }
 
 }
