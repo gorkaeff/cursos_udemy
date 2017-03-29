@@ -16,6 +16,7 @@ import { SearchComponent } from './components/search/search.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { SinfotoPipe } from './pipes/sinfoto.pipe';
 import { ArtistaComponent } from './components/artista/artista.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ArtistaComponent } from './components/artista/artista.component';
     SearchComponent,
     NavbarComponent,
     SinfotoPipe,
-    ArtistaComponent
+    ArtistaComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
