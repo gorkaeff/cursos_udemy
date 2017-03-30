@@ -60,3 +60,7 @@ Rutas y parametros. Bootstrap 4. Uso de HTTP y uso API Spotify para obtener info
 * 7 - Ionic 2 App
 
 Usar local storage para almacenar informacion. Introducción ionic 2. Servicios que afectan el local storage. Ionic view, controlar estilos, CRUD (update, delete, insert, select) y más pipes.
+
+sudo npm install -g ionic cordova
+
+ionic start --v2 deseos tabs
