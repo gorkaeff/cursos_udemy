@@ -64,3 +64,9 @@ Usar local storage para almacenar informacion. Introducción ionic 2. Servicios 
 sudo npm install -g ionic cordova
 
 ionic start --v2 deseos tabs
+
+ionic serve
+
+http://localhost:8100/ionic-lab
+
+Ionic View App -- Apple Store
