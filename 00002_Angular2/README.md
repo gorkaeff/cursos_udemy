@@ -70,3 +70,5 @@ ionic serve
 http://localhost:8100/ionic-lab
 
 Ionic View App -- Apple Store
+
+https://apps.ionic.io/login
