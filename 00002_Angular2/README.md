@@ -72,3 +72,7 @@ http://localhost:8100/ionic-lab
 Ionic View App -- Apple Store
 
 https://apps.ionic.io/login
+
+* 8 - Componentes, directivas de atributos, ciclo de vida
+
+Cambios de estilos, aplicar CSS sin afectar a los demás, condicionales, directivas personalizadas, ngSwitch, uso de rutas y rutas hijas y ciclo de vida de componente o directiva.
