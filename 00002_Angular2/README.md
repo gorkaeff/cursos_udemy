@@ -76,3 +76,15 @@ https://apps.ionic.io/login
 * 8 - Componentes, directivas de atributos, ciclo de vida
 
 Cambios de estilos, aplicar CSS sin afectar a los demás, condicionales, directivas personalizadas, ngSwitch, uso de rutas y rutas hijas y ciclo de vida de componente o directiva.
+
+* 17 - Documentos de interés
+
+https://angular.io/styleguide
+
+https://cli.angular.io/reference.pdf
+
+http://www.typescriptlang.org/docs/handbook/basic-types.html
+
+https://material.angular.io/
+
+https://angular.io/docs/ts/latest/tutorial/
