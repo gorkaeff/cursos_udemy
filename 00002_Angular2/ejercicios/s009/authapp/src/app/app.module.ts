@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { APP_ROUTING } from "./app.routes";
+import { Auth } from "./services/auth.service";
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -25,7 +26,9 @@ import { ProtegidaComponent } from './components/protegida/protegida.component';
     HttpModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    Auth
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
