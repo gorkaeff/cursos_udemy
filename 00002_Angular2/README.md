@@ -77,6 +77,10 @@ https://apps.ionic.io/login
 
 Cambios de estilos, aplicar CSS sin afectar a los demás, condicionales, directivas personalizadas, ngSwitch, uso de rutas y rutas hijas y ciclo de vida de componente o directiva.
 
+* 9 - Auth0
+
+Que es Auth0 y documentacion basada en Angular 2, autenticacion con Facebook, Twitter, Google, crear formulario de captura para la creacion de usuarios, personalizar caja de login, servicio para bloquear rutas que no son validas si el usuario no esta autenticado, obtener informacion del usuario...
+
 * 17 - Documentos de interés
 
 https://angular.io/styleguide
