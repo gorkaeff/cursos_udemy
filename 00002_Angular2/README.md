@@ -79,7 +79,11 @@ Cambios de estilos, aplicar CSS sin afectar a los demás, condicionales, directi
 
 * 9 - Auth0
 
-Que es Auth0 y documentacion basada en Angular 2, autenticacion con Facebook, Twitter, Google, crear formulario de captura para la creacion de usuarios, personalizar caja de login, servicio para bloquear rutas que no son validas si el usuario no esta autenticado, obtener informacion del usuario...
+Que es Auth0 y documentacion basada en Angular 2, autenticacion con Facebook, Twitter, Google, crear formulario de captura para la creacion de usuarios, personalizar caja de login, servicio para bloquear rutas que no son validas si el usuario no esta autenticado, obtener informacion del usuario...INCOMPLETA, HAY QUE REHACERLA!!!!
+
+* 10 - Formularios
+
+Trabajar formularios, profundizar ngModel, validaciones prefabricadas, validaciones personalizadas, validacioneos asincronas, ngSubmit, post solo cuando la informacion es valida, formularios en lado del componente, informacion por defecto, subscribirse a los cambios de los valores de formularios
 
 * 17 - Documentos de interés
 
