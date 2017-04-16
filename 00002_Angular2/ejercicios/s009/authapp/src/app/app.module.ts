@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { APP_ROUTING } from "./app.routes";
 import { Auth } from "./services/auth.service";
+import { AuthGuardService } from "./services/auth-guard.service";
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -27,7 +28,8 @@ import { ProtegidaComponent } from './components/protegida/protegida.component';
     APP_ROUTING
   ],
   providers: [
-    Auth
+    Auth,
+    AuthGuardService
   ],
   bootstrap: [AppComponent]
 })
