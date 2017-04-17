@@ -13,8 +13,16 @@
                placeholder="Nombre"
                name="nombre"
                [(ngModel)]="usuario.nombre"
-               minlength="5"
-               required>
+               minlength="3"
+               required
+               #nombre="ngModel">
+
+          <div *ngIf="nombre.errors?.required">
+            Este campo es requerido
+          </div>
+          <div *ngIf="nombre.errors?.minlength">
+            Por lo menos {{ nombre.errors.minlength.requiredLength }} caracteres.
+          </div>
       </div>
     </div>
 
@@ -26,7 +34,8 @@
                type="text"
                placeholder="Apellido"
                name="apellido"
-               [(ngModel)]="usuario.apellido">
+               [(ngModel)]="usuario.apellido"
+               required>
       </div>
     </div>
 
@@ -41,7 +50,8 @@
              placeholder="Correo electrónico"
              name="correo"
              [(ngModel)]="usuario.correo"
-             required>
+             required
+             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
     </div>
   </div>
 
