@@ -35,7 +35,12 @@
                placeholder="Apellido"
                name="apellido"
                [(ngModel)]="usuario.apellido"
-               required>
+               required
+               #apellido="ngModel">
+
+        <div *ngIf="apellido.errors?.required">
+            Este campo es requerido
+        </div>
       </div>
     </div>
 
@@ -51,7 +56,15 @@
              name="correo"
              [(ngModel)]="usuario.correo"
              required
-             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+             #correo="ngModel">
+
+      <div *ngIf="correo.errors?.required">
+            Este campo es requerido
+      </div>
+      <div *ngIf="correo.errors?.pattern">
+        Debe introducir un formato correo
+      </div>
     </div>
   </div>
 
