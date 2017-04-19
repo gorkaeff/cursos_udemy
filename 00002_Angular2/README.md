@@ -85,6 +85,24 @@ Que es Auth0 y documentacion basada en Angular 2, autenticacion con Facebook, Tw
 
 Trabajar formularios, profundizar ngModel, validaciones prefabricadas, validaciones personalizadas, validacioneos asincronas, ngSubmit, post solo cuando la informacion es valida, formularios en lado del componente, informacion por defecto, subscribirse a los cambios de los valores de formularios
 
+* 16 - Desplegando las aplicaciones a producción
+
+Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
+
+```
+//crear aplicacion
+ng new despliegue
+//acceder a la carpeta
+cd despliege
+//Pre Produccion - Ejecutar instruccion para crear carpeta dist (http-server npm TO TEST)
+//http-server -o
+ng build
+//Produccion
+//En src/environments/environment.ts, cambiar a production: true
+ng build --prod
+//Se genera de nuevo la carpeta dist con ficheros javascript con grandes numeros para prevenir la cache.
+```
+
 * 17 - Documentos de interés
 
 https://angular.io/styleguide
