@@ -114,3 +114,30 @@ http://www.typescriptlang.org/docs/handbook/basic-types.html
 https://material.angular.io/
 
 https://angular.io/docs/ts/latest/tutorial/
+
+* 19 - Actualización sobre Angular 4 y Angular CLI
+
+http://angularjs.blogspot.com/2017/03/angular-400-now-available.html
+
+Version 4 - Marzo 2017; 
+
+Version 5 - Septiembre/Octubre 2017; 
+
+Version 6 - Marzo 2018;
+
+Version 7 - Septiembre/Octubre 2018;
+
+```
+npm uninstall -g angular-cli
+npm uninstall --save-dev angular-cli
+
+npm uninstall -g @angular/cli
+npm cache clean
+npm install -g @angular/cli@latest
+
+rm -rf node_modules dist # use rmdir /S/Q node_modules dist in Windows Command Prompt; use rm -r -fo node_modules,dist in Windows PowerShell
+npm install --save-dev @angular/cli@latest
+npm install
+```
+
+* 20 - Cierre del curso - despedida
