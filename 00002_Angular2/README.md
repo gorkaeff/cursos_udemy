@@ -85,6 +85,10 @@ Que es Auth0 y documentacion basada en Angular 2, autenticacion con Facebook, Tw
 
 Trabajar formularios, profundizar ngModel, validaciones prefabricadas, validaciones personalizadas, validacioneos asincronas, ngSubmit, post solo cuando la informacion es valida, formularios en lado del componente, informacion por defecto, subscribirse a los cambios de los valores de formularios
 
+* 11 - Uso del HTTP - CRUD - Firebase
+
+Uso del modulo HTTP, servicios restful de Firebase, POST GET DELETE PUT y configuraciones consola Firebase
+
 * 16 - Desplegando las aplicaciones a producción
 
 Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
