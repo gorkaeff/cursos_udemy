@@ -91,6 +91,10 @@ Uso del modulo HTTP, servicios restful de Firebase, POST GET DELETE PUT y config
 
 https://firebase.google.com/
 
+* 12 - FireChat - AngularFire2
+
+Usar AngularFire2 - Libreria oficial de angular para conectarse a Firebase, crear observables para escuchar mediante sockets los cambios en firebase. Autenticacion Google y Twitter para el chat. AngularFire2 para manejar inserciones. Promesas para ejecutar funciones cuando detectemos cambios en BBDD. Usar localStorage para almacenar informacion del login para mantener la sesion.
+
 * 16 - Desplegando las aplicaciones a producción
 
 Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
