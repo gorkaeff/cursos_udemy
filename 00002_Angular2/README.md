@@ -97,6 +97,10 @@ Usar AngularFire2 - Libreria oficial de angular para conectarse a Firebase, crea
 
 https://github.com/angular/angularfire2
 
+* 13 - PeliculasApp
+
+JSONP para obtener información que proviene de otros dominios. Posibles errores por la versión 2.4.6 y 2.4.7 del HTTP Router, actualizar paquete en proyecto especifico, enviar información de un componente a otro para resumer código HTML. API Themoviedb.
+
 * 16 - Desplegando las aplicaciones a producción
 
 Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
