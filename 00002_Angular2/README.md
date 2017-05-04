@@ -101,6 +101,12 @@ https://github.com/angular/angularfire2
 
 JSONP para obtener información que proviene de otros dominios. Posibles errores por la versión 2.4.6 y 2.4.7 del HTTP Router, actualizar paquete en proyecto especifico, enviar información de un componente a otro para resumer código HTML. API Themoviedb.
 
+* 14 - Uso de Google Maps
+
+Uso de Google Maps en un proyecto Angular, Creación y restricción API KEY Google Maps, Crear marcadores en mapa, Eventos, Edición de marcadores.
+
+https://angular-maps.com
+
 * 16 - Desplegando las aplicaciones a producción
 
 Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
