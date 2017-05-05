@@ -109,6 +109,9 @@ https://angular-maps.com
 
 npm install angular2-google-maps --save
 ng generate component components/navbar -is
+Traducciones --> 
+npm install @ngx-translate/core --save
+npm install @ngx-translate/http-loader --save
 
 
 * 16 - Desplegando las aplicaciones a producción
