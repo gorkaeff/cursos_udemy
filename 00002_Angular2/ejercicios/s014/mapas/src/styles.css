@@ -69,3 +69,7 @@ body{
 .fadeIn {
   animation-name: fadeIn;
 }
+
+.sebm-google-map-container {
+  height: 600px;
+}

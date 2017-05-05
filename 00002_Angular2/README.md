@@ -107,6 +107,10 @@ Uso de Google Maps en un proyecto Angular, Creación y restricción API KEY Goog
 
 https://angular-maps.com
 
+npm install angular2-google-maps --save
+ng generate component components/navbar -is
+
+
 * 16 - Desplegando las aplicaciones a producción
 
 Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
