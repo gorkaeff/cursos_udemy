@@ -108,6 +108,7 @@ Uso de Google Maps en un proyecto Angular, Creación y restricción API KEY Goog
 https://angular-maps.com
 
 npm install angular2-google-maps --save
+npm install @agm/core --save
 ng generate component components/navbar -is
 Traducciones --> 
 npm install @ngx-translate/core --save
