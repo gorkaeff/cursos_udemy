@@ -114,6 +114,9 @@ Traducciones -->
 npm install @ngx-translate/core --save
 npm install @ngx-translate/http-loader --save
 
+* 15 - Canal de Youtube
+
+Crear un API KEY para acceder a servicios de Youtube API v3a, usar documentación de youtube para obtener informacion de un canal, obtener una lista de reproducción, crear una página en la cual puede cargar videos de forma paginada, token de respuesta de api youtube.
 
 * 16 - Desplegando las aplicaciones a producción
 
