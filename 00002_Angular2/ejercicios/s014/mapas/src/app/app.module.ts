@@ -7,16 +7,18 @@ import { HttpModule, Http } from "@angular/http";
 import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-
-//google maps
 import { AgmCoreModule } from 'angular2-google-maps/core';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: Http) {
     return new TranslateHttpLoader(http, "src/i18n/", ".json");
 }
+
+// servicios
+import { MapasService } from "./services/mapas.service";
+
+import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ export function HttpLoaderFactory(http: Http) {
       apiKey: 'AIzaSyBV2jKZ5mUUlxCKGsZKQJM-HNiL-7JZzMA'
     })
   ],
-  providers: [],
+  providers: [
+    MapasService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
