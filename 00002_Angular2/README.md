@@ -118,6 +118,8 @@ npm install @ngx-translate/http-loader --save
 
 Crear un API KEY para acceder a servicios de Youtube API v3a, usar documentación de youtube para obtener informacion de un canal, obtener una lista de reproducción, crear una página en la cual puede cargar videos de forma paginada, token de respuesta de api youtube.
 
+https://developers.google.com/youtube/v3/docs/
+
 * 16 - Desplegando las aplicaciones a producción
 
 Crear los archivos de distribucion, crear los archivos "pre produccion" y montarlo en un servidor para probar la aplicación.
@@ -147,6 +149,10 @@ http://www.typescriptlang.org/docs/handbook/basic-types.html
 https://material.angular.io/
 
 https://angular.io/docs/ts/latest/tutorial/
+
+* 18 - Bonus - Fileupload hacia Firebase
+
+Uso de directivas, detalles Hostlistener, Inputs y outputs, storage firebase, uploadTask firebase, drop dragenter dragleave dragover, uso de tipo dato File.
 
 * 19 - Actualización sobre Angular 4 y Angular CLI
 
