@@ -154,6 +154,12 @@ https://angular.io/docs/ts/latest/tutorial/
 
 Uso de directivas, detalles Hostlistener, Inputs y outputs, storage firebase, uploadTask firebase, drop dragenter dragleave dragover, uso de tipo dato File.
 
+https://github.com/jlmonteagudo/upload-firebase
+
+https://github.com/angular/angularfire2
+
+npm install firebase angularfire2 --save
+
 * 19 - Actualización sobre Angular 4 y Angular CLI
 
 http://angularjs.blogspot.com/2017/03/angular-400-now-available.html
