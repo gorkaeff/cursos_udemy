@@ -36,7 +36,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let archivo of archivos">
-          <td [ngClass]="{'text-green':archivo.estaSubiendo}">
+          <td [ngClass]="{'text-green': archivo.estaSubiendo}">
             <strong>{{archivo.nombreArchivo}}</strong>
           </td>
           <td>
@@ -44,7 +44,7 @@
           </td>
           <td>
             <div class="progress">
-              <progress class="progress-bar" role="progressbar" [ngStyle]="{'width': archivo.progreso + ' %'}"></progress>
+              <progress class="progress-bar" role="progressbar" [ngStyle]="{'width': archivo.progreso + '%'}"></progress>
             </div>
            
           </td>

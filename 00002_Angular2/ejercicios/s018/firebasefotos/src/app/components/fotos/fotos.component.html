@@ -1,3 +1,14 @@
-<p>
-  fotos works!
-</p>
+<div class="row">
+  <div class="card-columns">
+    <div class="card" *ngFor="let imagen of imagenes | async">
+      <img class="card-img-top img-fluid" [src]="imagen.url" alt="">
+      <div class="card-block">
+        <h4 class="card-title">{{imagen.nombre}}</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre>
+{{ (imagenes | async) | json }}
+</pre>
