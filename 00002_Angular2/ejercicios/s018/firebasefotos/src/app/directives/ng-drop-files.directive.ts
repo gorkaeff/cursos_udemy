@@ -25,6 +25,7 @@ export class NgDropFilesDirective {
   public onDragOver (event:any){
     let transferencia = this._getTransferencia(event);
     transferencia.dropEffect = 'copy';
+    this._prevenirYdetener(event);
     this.archivoSobre.emit(true);
   }
 
@@ -35,6 +36,7 @@ export class NgDropFilesDirective {
       return;
     }
     this._agregarArchivos(transferencia.files);
+    this.archivoSobre.emit(false);
     this._prevenirYdetener(event);
   }
 
@@ -43,7 +45,14 @@ export class NgDropFilesDirective {
   }
 
   private _agregarArchivos(archivosLista:FileList){
-    console.log(archivosLista);
+    for (let propiedad in Object.getOwnPropertyNames(archivosLista)){
+      let archTemporal = archivosLista[propiedad];
+      if (this._archivoPuedeSerCargado(archTemporal)){
+        let nuevoArchivo = new FileItem (archTemporal);
+        this.archivos.push(nuevoArchivo);
+      }
+    }
+    console.log(this.archivos);
   }
 
   private _prevenirYdetener( event:any ){
