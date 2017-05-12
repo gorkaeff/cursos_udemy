@@ -18,7 +18,6 @@ export class CargaComponent implements OnInit {
   }
 
   archivoSobreDropZone(e:any){
-    console.log(e);
     this.estaSobreDropZone = e;
   }
 
