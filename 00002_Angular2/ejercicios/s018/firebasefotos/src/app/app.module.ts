@@ -13,6 +13,9 @@ import { environment } from '../environments/environment';
 //services
 import { CargaImagenesService } from "./services/carga-imagenes.service";
 
+//directivas
+import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
+
 import { AppComponent } from './app.component';
 import { CargaComponent } from './components/carga/carga.component';
 import { FotosComponent } from './components/fotos/fotos.component';
@@ -21,7 +24,8 @@ import { FotosComponent } from './components/fotos/fotos.component';
   declarations: [
     AppComponent,
     CargaComponent,
-    FotosComponent
+    FotosComponent,
+    NgDropFilesDirective
   ],
   imports: [
     BrowserModule,

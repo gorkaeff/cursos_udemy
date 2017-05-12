@@ -17,6 +17,11 @@ export class CargaComponent implements OnInit {
   ngOnInit() {
   }
 
+  archivoSobreDropZone(e:any){
+    console.log(e);
+    this.estaSobreDropZone = e;
+  }
+
   cargarImagenesFirebase(){
     this.permiteCargar = false;
     this._cargaImagenes.cargar_imagenes_firebase(this.archivos);
